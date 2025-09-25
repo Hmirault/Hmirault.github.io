@@ -2,7 +2,7 @@
 layout: book-review
 title: "Distributed Computing: Fundamentals, Simulations and Advanced Topics"
 author: "Hagit Attiya and Jennifer Welch"
-isbn: 9780471478218
+olid: OL9627774M
 categories: distributed-computing theory textbook
 tags: foundational simulations models
 released: 2004
