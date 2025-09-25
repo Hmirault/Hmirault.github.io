@@ -400,11 +400,26 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-",
-          title: '',
+      },{id: "books-distributed-computing-fundamentals-simulations-and-advanced-topics",
+          title: 'Distributed Computing: Fundamentals, Simulations and Advanced Topics',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/DistriCompBook_1/";
+            },},{id: "books-distributed-computing-through-combinatorial-topology",
+          title: 'Distributed Computing Through Combinatorial Topology',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/DistriCompBook_2/";
+            },},{id: "books-distributed-algorithms",
+          title: 'Distributed Algorithms',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/DistriCompBook_3/";
+            },},{id: "books-distributed-computing-a-locality-sensitive-approach",
+          title: 'Distributed Computing: A Locality-Sensitive Approach',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/DistriCompBook_4/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
