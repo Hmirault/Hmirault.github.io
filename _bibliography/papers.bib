@@ -55,5 +55,25 @@ $\mathcal{O}(\lceil \frac{f}{\sqrt{n}} \rceil)$ rounds are possible.},
   doi          = {10.1007/978-3-031-91736-3\_28},
   timestamp    = {Tue, 10 Jun 2025 17:38:38 +0200},
   biburl       = {https://dblp.org/rec/conf/sirocco/MiraultRTZ25.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  arxiv        = {2506.06102},
+  preview      = {sirocco.png},
+  abstract     = {
+We consider the problem of computing a perfect matching problem
+in a synchronous distributed network, where the network topology corresponds 
+to a complete bipartite graph. The communication between nodes is restricted 
+to activating communication links, which means that instead of sending messages
+containing a number of bits, each node can only send a pulse over some of its 
+incident links in each round. In the port numbering model, where nodes are unaware
+of their neighbor's IDs, we give a randomized algorithm that terminates in $O(\log n)$ 
+rounds and has a pulse complexity of O(nlogn), which corresponds to the number of pulses
+sent over all links. We also show that randomness is crucial in the port numbering model, 
+as any deterministic algorithm must send at least Ω(n2) messages in the standard LOCAL model,
+where the messages can be of unbounded size. Then, we turn our attention to the KT_1 assumption,
+where each node starts out knowing its neighbors' IDs. We show that this additional knowledge
+enables significantly improved bounds even for deterministic algorithms. First, we give an 
+%O(\log n)% time deterministic algorithm that sends only $O(n)$ pulses. Finally,
+we apply this algorithm recursively to obtain an exponential reduction in the time
+complexity to $O(\log^∗ n \log \log n)$, while slightly increasing the pulse complexity to $O(n \log^∗ n)$.
+All our bounds also hold in the standard CONGEST model with single-bit messages.}
 }
