@@ -2,7 +2,7 @@
 layout: book-review
 title: "Distributed Computing Through Combinatorial Topology"
 author: "Maurice Herlihy, Dmitry Kozlov, and Sergio Rajsbaum"
-olid: OL26210427M
+isbn: 978-0124045781
 categories: distributed-computing theory topology advanced
 tags: computability impossibility-proofs k-set-agreement
 released: 2013
