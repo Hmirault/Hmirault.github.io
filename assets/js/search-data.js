@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-curriculum-vitae-resume",
+  },{id: "nav-bookshelf",
+          title: "Bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "nav-curriculum-vitae-resume",
           title: "Curriculum Vitae - Resume",
           description: "This is my Curriculum Vitae - Resume. You can also download my resume as a PDF",
           section: "Navigation",
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-bookshelf",
-          title: "Bookshelf",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
           },
         },{id: "post-a-post-with-plotly-js",
         
