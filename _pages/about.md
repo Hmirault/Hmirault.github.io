@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Student in Distributed Computing at <a href='https://www.augusta.edu/ccs/'>Augusta University</a>.
 

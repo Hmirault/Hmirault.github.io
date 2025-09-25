@@ -11,3 +11,11 @@ collection: books
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
 ## Books that I am reading, have read, or will read
+
+Distributed Computing: Fundamentals, Simulations and Advanced Topics *Attiya Hagit, Welch Jennifer*
+
+Distributed Computing Through Combinatorial Topology *Maurice Herlihy, Dmitry Kozlov, Sergio Rajsbaum*
+
+Distributed algorithms *Nancy A. Lynch*
+
+Distributed computing: a locality-sensitive approach *Peleg David*
