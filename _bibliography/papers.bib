@@ -28,10 +28,11 @@ sleeping model (Chatterjee, Gmyr, Pandurangan PODC 2020) and defines the awake c
 (also called \emph{energy complexity}), which measures the maximum number of rounds that
 any node is awake throughout the execution. Only awake nodes can send and receive messages
 in a given round and all messages sent to sleeping nodes are lost. We present new deterministic
-consensus algorithms that tolerate up to f<n crash failures, where n is the number of nodes.
-Our algorithms match the optimal time complexity lower bound of f+1 rounds. For multi-value consensus,
+consensus algorithms that tolerate up to $f<n$ crash failures, where $n$ is the number of nodes.
+Our algorithms match the optimal time complexity lower bound of $f+1$ rounds. For multi-value consensus,
 where the input values are chosen from some possibly large set, we achieve an energy complexity of
-O(⌈f2/n⌉) rounds, whereas for binary consensus, we show that O(⌈f/n√⌉) rounds are possible. $x+1$},
+$\mathcal{O}(\lceil \frac{f^2}{n} \rceil)$ rounds, whereas for binary consensus, we show that 
+$\mathcal{O}(\lceil \frac{f}{\sqrt{n}} \rceil)$ rounds are possible.},
   arxiv        = {2506.12282}
 
 }
