@@ -4,197 +4,140 @@
     "label": "PhD Student / Graduate research assistant",
     "image": "",
     "email": "hmirault@augusta.edu",
-    "phone": "-",
     "url": "https://Hmirault.github.io/",
-    "summary": "French PhD Student in Augusta University, GA, USA. Interested in Distributed Algorithms",
+    "summary": "PhD Student at Augusta University, GA, USA. My research focuses on fault-tolerant distributed algorithms, with a particular interest in the consensus problem and energy complexity.",
     "location": {
-      "address": "-",
-      "postalCode": "-",
       "city": "Augusta",
       "countryCode": "US",
       "region": "Georgia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GScholar",
+        "username": "Hugo Mirault",
+        "url": "https://scholar.google.com/citations?user=WZtCsUsAAAAJ&hl=en"
       }
     ]
   },
   "work": [
     {
-      "name": "School of Cyber and Computer Science, Augusta University",
+      "name": "Augusta University",
       "position": "Graduate research assistantship",
       "url": "https://example.com",
-      "startDate": "2024-01-01",
+      "startDate": "2024",
       "endDate": "-",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "summary": "Graduate Research Assistant under the supervision of Dr. Peter Robinson, focusing on distributed algorithms.",
+      "highlights": []
+    },
+    {
+      "name": "Systerel",
+      "position": "Formal Methods Engineer",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Formal Methods Engineer for the design and formal verification of automatic trains (CBTC), using B-Method and interactive proof.",
+      "highlights": []
+    },
+    {
+      "name": "LIRMM",
+      "position": "End-of-study Internship - Secure Multiparty Computation",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Studied secure multiparty computation (MPC) protocols in the context of algebraic computation on matrices. Wrote a final dissertation on the topic.",
+      "highlights": []
+    },
+    {
+      "name": "LIRMM",
+      "position": "Research Internship - Kolmogorov Complexity",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "Studied the link between Kolmogorov prefix complexity and the Martin-Löf notion of randomness, focusing on the Chaitin constant.",
+      "highlights": []
     }
   ],
-  "volunteer": [
+"education": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "institution": "Augusta University, USA",
+      "area": "Computer Science",
+      "studyType": "PhD in Distributed Algorithms",
+      "startDate": "2024",
+      "endDate": "Present",
+      "courses": [
+        "Supervised by Dr. Robinson"
       ]
+    },
+    {
+      "institution": "University of Montpellier, France",
+      "area": "Algorithmics (ALGO/MIT)",
+      "studyType": "Master's Degree",
+      "startDate": "2020",
+      "endDate": "2022",
+      "score": "With Honors",
+      "courses": [
+        "Graph Theory",
+        "Complexity Theory",
+        "Information Theory",
+        "Cryptography",
+        "Formal Methods"
+      ]
+    },
+    {
+      "institution": "University of Montpellier, France",
+      "area": "General Computer Science",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2017",
+      "endDate": "2020",
+      "score": "With Honors"
     }
   ],
+   "publications": [
+    {
+      "name": "Brief Announcement: Perfect Matching with Few Link Activations",
+      "publisher": "SIROCCO 2025 (Lecture Notes in Computer Science, vol 15671)",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.1007/978-3-031-91736-3_28",
+      "summary": "Authors: Mirault, H., Robinson, P., Tan, M.M., Zhu, X."
+    },
+    {
+      "name": "Brief Announcement: Towards Energy-Efficient Distributed Agreement",
+      "publisher": "PODC 2025",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.1145/3732772.3733554",
+      "summary": "Authors: Hugo Mirault and Peter Robinson."
+    }
+  ],
+  "skills": [],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "French",
+      "fluency": "Native Speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent (B2/C1)"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research Interests",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Distributed algorithms",
+        "Information theory",
+        "Concurrency",
+        "Fault resilience",
+        "Byzantine resilience",
+        "Distributed protocols"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Student Project - Scheduler",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "Modeled a scheduling problem, implemented an exact Mixed-Integer Programming (MIP) solver and various heuristics, and compared their performance.",
+      "highlights": [
+        "University of Montpellier"
+      ]
     }
   ]
 }
