@@ -7,7 +7,7 @@ categories: distributed-computing theory topology advanced
 tags: computability impossibility-proofs k-set-agreement
 released: 2013
 stars: 5
-status: To Read
+status: Reading
 ---
 
 This book presents an advanced and powerful approach to distributed computing by applying tools from combinatorial and algebraic topology. It provides a rigorous framework for analyzing the computability of distributed tasks.
