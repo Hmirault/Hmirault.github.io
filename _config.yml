@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Hugo Mirault # the website title (if blank, full name will be used instead)
+title: Hugo Mirault | PhD Student # the website title (if blank, full name will be used instead)
 first_name: Hugo
 middle_name: N.
 last_name: Mirault
@@ -10,6 +10,9 @@ contact_note: >
   hmirault@augusta.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD Student in Distributed Computing / Doctorant en Algorithmique Distribuée.
+  Personal and academic website of Hugo Mirault. 
+  This site presents my research in distributed algorithms,
+  crash-fault-tolerant consensus, and energy complexity.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
