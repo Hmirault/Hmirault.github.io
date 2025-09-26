@@ -70,7 +70,8 @@
       "startDate": "2020",
       "endDate": "2022",
       "score": "With Honors",
-      "courses": ["Graph Theory", "Complexity Theory", "Information Theory", "Cryptography", "Formal Methods"]
+      "courses": ["Graph Theory", "Complexity Theory", "Information Theory", "Cryptography", "Formal Methods"],
+      "url": "https://formations-en.umontpellier.fr/fr/formations/master-XB/master-informatique-ME154/algorithmique-PR479.html"
     },
     {
       "institution": "University of Montpellier, France",
