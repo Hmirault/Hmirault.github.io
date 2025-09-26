@@ -8,11 +8,12 @@ subtitle: Ph.D. Student in Computer Sciences | Distributed Computing | at <a hre
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>School of Computer and Cyber Sciences</p>
+    <p>PhD Student</p>
+    <p>Graduate Research Assistant</p>
     <p>Augusta University</p>
-    <p>Augusta, GA 30912</p>
+    <p>Augusta, GA, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
