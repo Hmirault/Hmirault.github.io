@@ -2,7 +2,7 @@
 layout: book-review
 title: "Distributed Computing: A Locality-Sensitive Approach"
 author: "David Peleg"
-isbn: 9780898714647
+cover: assets/img/book_covers/DistributedComputingALocalitySensitiveApproach.jpg
 categories: distributed-computing theory locality
 tags: graph-algorithms communication-complexity network-theory
 released: 2000

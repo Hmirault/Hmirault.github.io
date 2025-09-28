@@ -2,7 +2,7 @@
 layout: book-review
 title: "Distributed Algorithms"
 author: "Nancy A. Lynch"
-isbn: 9781558603486
+cover: assets/img/book_covers/DistributedAlgorithmsNancyALynch.jpeg
 categories: distributed-computing theory textbook
 tags: foundational asynchronous-systems formal-methods automata
 released: 1996
