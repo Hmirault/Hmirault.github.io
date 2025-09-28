@@ -79,7 +79,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/DistriCompBook_4/";
-            },},{id: "projects-test-project",
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "projects-test-project",
           title: 'Test project',
           description: "with background image",
           section: "Projects",handler: () => {
