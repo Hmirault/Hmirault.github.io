@@ -4,6 +4,20 @@
 
 // Typography
 
+body {
+  font-family: var(--global-sans-serif-font);
+}
+
+// 2. Définir la police spécifique pour tous les titres
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--global-serif-font);
+}
+
 p,
 h1,
 h2,

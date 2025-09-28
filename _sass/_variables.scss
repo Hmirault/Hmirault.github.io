@@ -5,6 +5,11 @@
 
 @use "sass:color";
 
+// Fonts
+$font-family-serif: "Source Serif Pro", Georgia, serif;
+$font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-cursive: "Dancing Script", cursive;
+
 // Personalized colors 
 $navy-blue-color: #07192b;
 $beige-text-color: #f7efe4;
