@@ -5,7 +5,7 @@
 @use "sass:color";
 
 :root {
-  --global-cursive-font: 'Dancing Script', cursive;
+  --global-cursive-font: "Dancing Script", cursive;
   color-scheme: light;
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
