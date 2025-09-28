@@ -9,6 +9,7 @@
   {% if site.last_updated %}
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
+{% include social.liquid %}
 {% endcapture %}
 
 {% if site.footer_fixed %}
@@ -22,7 +23,6 @@
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
     {% endif %}
-
     <div class="container">
       {{ footer_contents }}
     </div>
