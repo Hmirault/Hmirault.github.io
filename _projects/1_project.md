@@ -1,81 +1,60 @@
 ---
 layout: page
-title: Test project
-description: with background image
-img: assets/img/12.jpg
+title: Distributed Simulator (Test Page)
+description: I am coding a small simulator for playing with distributed algorithms and a potential adversary. The goal is to help produce some reasoning on the behaviors of distributed algorithms. Yet this is focused on the problem of Consensus.
+img: assets/img/consensus.png
 importance: 1
 category: work
 related_publications: true
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12">
+        <div class="header-bar">
+            <h1>Distributed Algorithm Simulator</h1>
+            <p>A sandbox for studying Consensus and distributed systems.</p>
+        </div>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<br>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<p><span class="badge bg-warning text-dark">Work in Progress</span></p>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## 1- Project Goal
 
-{% raw %}
+This project is a simulator developed in Python, designed to provide a controlled environment for experimenting with distributed algorithms. The main goal is to **facilitate reasoning** about their behaviors, especially when facing an **adversary** capable of interfering with the system (e.g., by delaying messages or crashing some processus).
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Although the framework is designed to be generic, its primary focus is on the study of the **Consensus** problem.
 
-{% endraw %}
+---
+
+## 2- Key Features
+
+The simulator is built on a modular architecture that allows for easy combination of different components:
+
+* **Computational Models **: The simulation engine (`engines`) supports both **synchronous** (round-based communication) and **asynchronous** (no assumptions on communication delays) models.
+
+* **Network Topologies **: It is possible to define the network's structure. Currently implemented topologies (`topologies`) include the **clique** (a fully connected network) and the **ring**.
+
+* **Implemented Algorithms **: The `algorithms` directory contains the implementations of the algorithms. For now, it includes classics like **leader election** and **token ring**, which serve as a foundation for more complex algorithms.
+
+* **Visualization **: The simulator offers several ways to visualize an execution (`visualizers`), from a simple **terminal** display to a graphical visualization of the network state using the **NetworkX** library.
+
+---
+
+## 3- Project Architecture
+
+The project's directory structure was designed to clearly separate concerns:
+
+* `core/`: Contains the fundamental building blocks of the simulation: the definition of a process/node (`joueur.py`) and the structure of exchanged messages (`message.py`).
+
+* `engines/`: The core of the simulation. It handles the logic for time progression and message delivery according to the chosen computational model.
+
+* `topologies/`: Defines the communication graphs between the nodes in the system.
+
+* `algorithms/`: Where the logic of the distributed algorithms is implemented. New algorithms can be easily added by following a simple interface.
+
+* `visualizers/`: Handles the display of the system's state at any given time.
+
+---
+
