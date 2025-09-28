@@ -32,7 +32,7 @@
     {
       "name": "Systerel",
       "position": "Formal Methods Engineer",
-      "url":"https://www.systerel.fr/en/",
+      "url": "https://www.systerel.fr/en/",
       "startDate": "2023",
       "endDate": "2023",
       "summary": "Formal Methods Engineer for the design and formal verification of automatic trains (CBTC), using B-Method and interactive proof.",
@@ -40,8 +40,8 @@
     },
     {
       "name": "LIRMM",
-	"position": "End-of-study Internship - Secure Multiparty Computation",
-      "url":"https://www.lirmm.fr/lirmm-en/",
+      "position": "End-of-study Internship - Secure Multiparty Computation",
+      "url": "https://www.lirmm.fr/lirmm-en/",
       "startDate": "2022",
       "endDate": "2022",
       "summary": "Studied secure multiparty computation (MPC) protocols in the context of algebraic computation on matrices. Wrote a final dissertation on the topic.",
@@ -49,8 +49,8 @@
     },
     {
       "name": "LIRMM",
-	"position": "Research Internship - Kolmogorov Complexity",
-	"url":"https://www.lirmm.fr/lirmm-en/",
+      "position": "Research Internship - Kolmogorov Complexity",
+      "url": "https://www.lirmm.fr/lirmm-en/",
       "startDate": "2021",
       "endDate": "2021",
       "summary": "Studied the link between Kolmogorov prefix complexity and the Martin-Löf notion of randomness, focusing on the Chaitin constant.",
@@ -60,16 +60,16 @@
   "education": [
     {
       "institution": "Augusta University, USA",
-	"area": "Computer Science",
-	"url": "https://www.augusta.edu/",
+      "area": "Computer Science",
+      "url": "https://www.augusta.edu/",
       "studyType": "PhD in Distributed Algorithms",
       "startDate": "2024",
       "endDate": "Present",
       "courses": ["Supervised by Dr. Robinson"]
     },
     {
-	"institution": "University of Montpellier, France",
-	"url":"https://www.umontpellier.fr/",
+      "institution": "University of Montpellier, France",
+      "url": "https://www.umontpellier.fr/",
       "area": "Algorithmics (ALGO/MIT)",
       "studyType": "Master's Degree",
       "startDate": "2020",
@@ -79,8 +79,8 @@
       "url": "https://formations-en.umontpellier.fr/fr/formations/master-XB/master-informatique-ME154/algorithmique-PR479.html"
     },
     {
-	"institution": "University of Montpellier, France",
-	"url":"https://www.umontpellier.fr/",
+      "institution": "University of Montpellier, France",
+      "url": "https://www.umontpellier.fr/",
       "area": "General Computer Science",
       "studyType": "Bachelor's Degree",
       "startDate": "2017",

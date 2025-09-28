@@ -5,32 +5,30 @@
 @use "sass:color";
 
 :root {
-
-// Fonts 
+  // Fonts
   --global-serif-font: #{$font-family-serif};
   --global-sans-serif-font: #{$font-family-sans-serif};
   --global-cursive-font: #{$font-family-cursive};
 
-
   color-scheme: light;
 
-// Background
+  // Background
   --global-bg-color: #{$beige-text-color};
   --global-code-bg-color: #{$code-bg-color-light};
 
-// Texte
+  // Texte
   --global-text-color: #{$navy-blue-color};
   --global-text-color-light: #{$muted-text-color};
 
-// Accents
+  // Accents
   --global-theme-color: #{$gold-accent-color};
   --global-hover-color: #{$gold-accent-hover};
   --global-hover-text-color: #{$navy-blue-color};
 
-// Footer
+  // Footer
   --global-footer-bg-color: #{$light-warm-grey};
   --global-footer-text-color: #{$navy-blue-color};
-  --global-footer-link-color: #{$dark-charcoal-color}; 
+  --global-footer-link-color: #{$dark-charcoal-color};
 
   // Autres éléments
   --global-distill-app-color: #{$muted-text-color};
@@ -42,7 +40,7 @@
   --global-newsletter-bg-color: #{$light-warm-grey};
   --global-newsletter-text-color: #{$navy-blue-color};
 
-/*
+  /*
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -118,20 +116,20 @@
 html[data-theme="dark"] {
   color-scheme: dark;
 
-// Background
+  // Background
   --global-bg-color: #{$navy-blue-color};
   --global-code-bg-color: #{$code-bg-color-dark};
 
-// Texte
+  // Texte
   --global-text-color: #{$beige-text-color};
   --global-text-color-light: #{$muted-text-color};
 
-// Accents
+  // Accents
   --global-theme-color: #{$gold-accent-color};
   --global-hover-color: #{$gold-accent-hover};
   --global-hover-text-color: #{$navy-blue-color};
 
-// Footer
+  // Footer
   --global-footer-bg-color: #{$dark-charcoal-color};
   --global-footer-text-color: #{$muted-text-color};
   --global-footer-link-color: #{$beige-text-color};

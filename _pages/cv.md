@@ -8,4 +8,3 @@ cv_pdf: CV_Hugo_Mirault_EN.pdf
 toc:
   sidebar: left
 ---
-
