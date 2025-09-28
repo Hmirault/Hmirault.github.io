@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -57,9 +57,9 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/DistriCompBook_4/";
-            },},{id: "projects-test-project",
-          title: 'Test project',
-          description: "with background image",
+            },},{id: "projects-distributed-simulator-test-page",
+          title: 'Distributed Simulator (Test Page)',
+          description: "I am coding a small simulator for playing with distributed algorithms and a potential adversary. The goal is to help produce some reasoning on the behaviors of distributed algorithms. Yet this is focused on the problem of Consensus.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{
