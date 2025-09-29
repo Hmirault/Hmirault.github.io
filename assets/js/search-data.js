@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-bookshelf",
-          title: "Bookshelf",
-          description: "Books that I am reading, have read, or will read",
+        },{id: "nav-milestone",
+          title: "Milestone",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/milestone/index.html";
           },
         },{id: "nav-projects",
           title: "Projects",
@@ -37,7 +37,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "books-distributed-computing-fundamentals-simulations-and-advanced-topics",
+        },{id: "nav-bookshelf",
+          title: "Bookshelf",
+          description: "Books that I am reading, have read, or will read",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "post-student-organization-in-au",
+        
+          title: "Student organization in AU",
+        
+        description: "How to search for student org in AU and the one to know",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Orgtanization-AU/";
+          
+        },
+      },{id: "post-venue-funding-with-augusta-university",
+        
+          title: "Venue funding with Augusta University",
+        
+        description: "How to fund your participation to a venue with the support of GSGA",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/GSGA-Funding/";
+          
+        },
+      },{id: "books-distributed-computing-fundamentals-simulations-and-advanced-topics",
           title: 'Distributed Computing: Fundamentals, Simulations and Advanced Topics',
           description: "",
           section: "Books",handler: () => {
