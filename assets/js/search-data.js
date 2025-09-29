@@ -62,6 +62,11 @@ ninja.data = [{
           description: "A small simulator to play with distributed algorithms and adversarial behaviors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Distributed_simulator/";
+            },},{id: "projects-my-personalized-scripts",
+          title: 'My personalized scripts',
+          description: "Some small scripts a like to use",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/My_scripts/";
             },},{
         id: 'social-dblp',
         title: 'DBLP',
