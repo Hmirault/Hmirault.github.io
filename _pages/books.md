@@ -4,6 +4,6 @@ title: Bookshelf
 description: "Books that I am reading, have read, or will read"
 permalink: /books/
 nav: true
-nav_order: 4
+nav_order: 6
 collection: books
 ---
