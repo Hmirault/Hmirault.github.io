@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My personalized scripts
-description: Some small scripts a like to use 
+description: Some small scripts a like to use
 img: assets/img/script.png
 importance: 2
 category: work
@@ -20,6 +20,7 @@ related_publications: false
 <br>
 
 # (1) My backup script
+
 I use to run this script as a routine to backup some essential part of my work in case I get any issues with my computer. It's avoid heavy files and any files related with sensitive data (like ssh key). I also run it using crontab in case I forget to run it for a long time.
 I also use a variation of this script to tar the outputed directory and copy it on another hard drive.
 
@@ -92,6 +93,7 @@ osascript -e "display notification \"Backup done and uploaded\" with title \"Bac
 ```
 
 # (2) My update script
+
 Just a little script to make sure most of my software are kept up to date. This is not part of any routine, yet.
 
 ```

@@ -27,30 +27,31 @@ While exploring is encouraged, some organizations are particularly important for
 
 ### [GSGA (Graduate Student Government Association)](https://www.augusta.edu/student-life/graduatesga/)
 
-The **GSGA** is the official student government representing **all graduate students** at the university, regardless of their field of study. 
+The **GSGA** is the official student government representing **all graduate students** at the university, regardless of their field of study.
 
 **Why it's important:**
-* **Representation:** It’s your voice to the university administration on topics that directly affect you (working conditions, stipends, campus life).
-* **Funding:** This is the organization that manages funds for student projects and travel. As I detailed in a [previous post](/blog/2025/travel-funding-gsga/), the GSGA can help fund your conference travel.
+
+- **Representation:** It’s your voice to the university administration on topics that directly affect you (working conditions, stipends, campus life).
+- **Funding:** This is the organization that manages funds for student projects and travel. As I detailed in a [previous post](/blog/2025/travel-funding-gsga/), the GSGA can help fund your conference travel.
 
 ### [CCGSO (Computer and Cyber Sciences Graduate Student Organization)](https://augusta.presence.io/organization/computer-cyber-graduate-student-organization)
 
 Our school has its own student organization. For us, it’s the **CCGSO**. Joining your college’s organization is the best way to build connections with people in your immediate field.
 
 **Why it's important:**
-* **Targeted Networking:** You’ll meet students and professors from your department, which is invaluable for research collaborations and career opportunities.
-* **Academic Support:** It's an excellent place for discussing courses, research projects, and getting help from your peers. You are encouraged to share what you would want to be improved within the school.
+
+- **Targeted Networking:** You’ll meet students and professors from your department, which is invaluable for research collaborations and career opportunities.
+- **Academic Support:** It's an excellent place for discussing courses, research projects, and getting help from your peers. You are encouraged to share what you would want to be improved within the school.
 
 ---
+
 # (3) Reading Groups
 
 For PhD students, reading groups are one of the most intellectually stimulating activities you can join. These are typically informal groups that meet regularly to discuss academic papers.
 
-
 ### [The Programming Language reading group : $\Delta \Lambda \Delta$](https://the-au-forml-lab.github.io/plgroup/)
 
 Run under the $\Delta \Lambda \Delta$ association, the PL group is a good place for students with an interest in theory. It's a good place to discuss foundational papers and complex ideas.
-
 
 ### The Machine Learning (ML) Group
 
