@@ -28,11 +28,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in the [School of Computer and Cyber Sciences](https://www.augusta.edu/ccs/) at [Augusta University](https://www.augusta.edu/ccs/) in Georgia, USA, since 2024. I am also a Graduate Research Assistant in the school.
+I am a Ph.D. student in the [School of Computer and Cyber Sciences](https://www.augusta.edu/ccs/) at [Augusta University](https://www.augusta.edu) in Georgia, USA, since 2024. I am also a Graduate Research Assistant in the school under the supervision of Dr. Peter Robinson.
 
-My research focuses on **distributed algorithms**, with a particular interest in the **consensus problem** in **synchronous systems**.
-Currently, my work explores complexity trade-offs in a resource-constrained model called the **sleeping model** (First introduced by [here](https://dl.acm.org/doi/10.1145/3382734.3405718)), where the goal is to design a distributed protocol while players (or nodes) choose either to be awake or asleep (active or inactive). Then we try to provide time-optimal but also highly efficient in terms of energy consumption algorithms.
-I am generally interested in the foundations of theoretical computer science, including complexity theory and the analysis of distributed protocols.
+My research focuses on **distributed algorithms** and **fault-tolerent computing**, with a particular interest in the **consensus problem** in **synchronous systems**. 
+I work currently on complexity efficient algorithms the **sleeping model**. 
+In this model, players (or nodes) can choose to be either awake (active) or asleep (inactive, and may loose any incoming messages). 
+We try to provide time-optimal but also efficient in terms of energy consumption algorithms to solve consensus problem and its variations. 
+I am more generally interested in the foundations of theoretical computer science, including complexity theory and the analysis of distributed protocols. 
 
-This website serves as a central hub for my research activities.
-You can find a list of my publications, current projects, and occasionally, posts about topics that I find interesting.
+This website serves as a central hub for my research activities. 
+You can also find a list of my publications. 
