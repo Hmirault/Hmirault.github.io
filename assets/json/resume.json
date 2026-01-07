@@ -90,8 +90,15 @@
   ],
   "publications": [
     {
+      "name": "Time-Optimal and Energy-Efficient Deterministic Consensus",
+      "publisher": "OPODIS 2025",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.4230/LIPIcs.OPODIS.2025.15",
+      "summary": "Authors: Meir, S., Mirault, H., Peleg, D., Robinson, P."
+    },
+    {
       "name": "Brief Announcement: Perfect Matching with Few Link Activations",
-      "publisher": "SIROCCO 2025 (Lecture Notes in Computer Science, vol 15671)",
+      "publisher": "SIROCCO 2025",
       "releaseDate": "2025",
       "url": "https://doi.org/10.1007/978-3-031-91736-3_28",
       "summary": "Authors: Mirault, H., Robinson, P., Tan, M.M., Zhu, X."
